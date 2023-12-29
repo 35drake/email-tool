@@ -17,4 +17,4 @@ def send_email(recipient,cc,subject,html_body_file,attachment):
 	message.Display(False) # false for "modal Outlook window"
 	message.Attachments.Add(attachment)	
 
-send_email("dsorkhab@mgb.org ; 35drake@gmail.com", "phys152boi@gmail.com","Subject 41","body.txt","C:\\Users\\DS001\\OneDrive - Mass General Brigham\\ONEDRIVE DOCUMENTS\\CODE\\emailer\\test-attachment.txt")
+send_email("dsorkhab@mgb.org ; 35drake@gmail.com", "phys152boi@gmail.com","Subject 41","body.txt","C:\\Users\\DS001\\OneDrive - Mass General Brigham\\ONEDRIVE DOCUMENTS\\CODE\\emailer\\test-attachment.pdf")
